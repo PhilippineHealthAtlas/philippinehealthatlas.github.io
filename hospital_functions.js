@@ -187,6 +187,7 @@ function togglePointRadioboxes() {
         }
     }
 	$('#legendbar .padding').html('<h2>' + attr.description + '</h2>' + attr.details);
+	
 }
 
 function clearHide() {

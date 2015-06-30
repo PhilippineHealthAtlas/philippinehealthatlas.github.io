@@ -1,0 +1,10 @@
+body {
+	height:auto;
+}
+#map, #legendbar, #addressbar , #printlink{
+	display:none;
+}
+#sidepanel {
+	width:100%;
+	height:auto;
+}

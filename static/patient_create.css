@@ -1,0 +1,12 @@
+div.required {
+	background-color:#ffc;
+	padding:3px;
+	border:1px solid #dda;
+	margin:2px;
+}
+div.optional {
+	color:#aaa;
+	padding:3px;
+	border:1px solid #fff;
+	margin:2px;
+}

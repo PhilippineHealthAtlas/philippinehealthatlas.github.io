@@ -1,0 +1,5 @@
+#login input {display:block; width:100%;}
+#login label {display:block;}
+input[type=submit] {
+	padding:5px;
+}

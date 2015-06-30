@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+<form onsubmit="return callScript()">
+<input id="id_field" style="width:400px" placeholder="put spreadsheet id here" value="1-zJW3eGcYdq0LOSYJMp-zrLcG_osg3nnp2SJ2M12RHM"><input type="submit" onclick="return callScript()" value="Submit">
+</form>
+<div id="results"></div>
+<script>
+function callScript() {
+var id = document.getElementById('id_field').value;
+var script = document.createElement('script');
+script.src='https://spreadsheets.google.com/feeds/worksheets/'+id+'/public/full?alt=json-in-script&callback=showCodes';
+document.body.appendChild(script);
+return false
+}
+
+function showCodes(result) {
+	var results_div = document.getElementById('results');
+	var html = '<table border="1" cellspacing="0">'
+		+'<tr>'
+		+'<th>Title</th>'
+		+'<th>Columns</th>'
+		+'<th>Rows</th>'
+		+'<th>IDs</th>'
+		+'</tr>'
+		;
+	;
+	var items = result.feed.entry;
+	for (var i in items) {
+		html+='<tr>'
+			+'<td>'+items[i].title.$t+'</td>'
+			+'<td>'+items[i].gs$colCount.$t+'</td>'
+			+'<td>'+items[i].gs$rowCount.$t+'</td>'
+			+'<td><input style="width:400px" length="200" onclick="this.select();" value="'
+			+items[i].id.$t.replace(/(.+worksheets\/|\/public\/full)/g,'')
+			+'"/></td>'
+			+'</tr>'
+			;
+	}
+	results_div.innerHTML = html;
+}
+</script>
+</body>
+</html>

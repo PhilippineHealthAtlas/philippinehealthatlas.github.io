@@ -1,0 +1,76 @@
+
+body {
+margin:0;
+padding:0;
+height:100%;
+font-family:Roboto;
+}
+#map-canvas {
+position:absolute;
+bottom:0;
+right:0;
+width:100%;
+height:100%;
+}
+#legend {
+background: #FFF;
+padding: 10px;
+margin: 5px;
+font-size: 12px;
+font-family: Arial, sans-serif;
+}
+p { 
+padding:0;
+}
+
+.color {
+border: 1px solid;
+height: 12px;
+width: 12px;
+margin-right: 3px;
+float: left;
+}
+
+.red {
+background: #C00;
+}
+
+.yellow {
+background: #FF3;
+}
+
+.green {
+background: #6F0;
+}
+
+.blue {
+background: #06C;
+}
+
+.purple {
+background: #63C;
+}
+
+.legend { 
+	margin-left:20px;
+}
+#legends { 
+	width:240px;
+	background-color:#fff;
+}
+#legends div { 
+	clear:both;
+}
+
+.controls {
+  background-color: #fff;
+  margin-top: 16px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding:10px;
+  font-size:14px;  
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

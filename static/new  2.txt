@@ -1,0 +1,250 @@
+<Placemark><description>Buan, Asuncion, Davao del Norte -- Buan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.85388,7.7025,0</coordinates></Point></Placemark>
+<Placemark><description>Buclad, Asuncion, Davao del Norte -- Buclad BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75668,7.62607,0</coordinates></Point></Placemark>
+<Placemark><description>Cabaywa, Asuncion, Davao del Norte -- Cabaywa BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75668,7.62607,0</coordinates></Point></Placemark>
+<Placemark><description>Camansa, Asuncion, Davao del Norte -- Camansa BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.9029,7.74638,0</coordinates></Point></Placemark>
+<Placemark><description>Cambanogoy (Pob.), Asuncion, Davao del Norte -- Cambanogoy (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7537667,7.540325,0</coordinates></Point></Placemark>
+
+
+
+<Placemark><description>Doña Andrea, Asuncion, Davao del Norte -- Doña Andrea BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74799,7.6172,0</coordinates></Point></Placemark>
+<Placemark><description>Magatos, Asuncion, Davao del Norte -- Magatos BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72507,7.55671,0</coordinates></Point></Placemark>
+<Placemark><description>Napungas, Asuncion, Davao del Norte -- Napungas BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.79118,7.6744,0</coordinates></Point></Placemark>
+
+<Placemark><description>Sagayen, Asuncion, Davao del Norte -- Sagayen BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76028,7.64862,0</coordinates></Point></Placemark>
+
+<Placemark><description>Cabay-Angan, B.E. Dujali, Davao del Norte -- Cabay-Angan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7316,7.40877,0</coordinates></Point></Placemark>
+
+<Placemark><description>Magupising, B.E. Dujali, Davao del Norte -- Magupising BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74711,7.42611,0</coordinates></Point></Placemark>
+<Placemark><description>New Casay, B.E. Dujali, Davao del Norte -- New Casay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69928,7.42672,0</coordinates></Point></Placemark>
+<Placemark><description>Tanglaw, B.E. Dujali, Davao del Norte -- Tanglaw BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62141,7.42138,0</coordinates></Point></Placemark>
+<Placemark><description>Balet, Igacos, Davao del Norte -- Balet BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74378,7.16649,0</coordinates></Point></Placemark>
+<Placemark><description>Caliclic (Dangca-an), Igacos, Davao del Norte -- Caliclic (Dangca-an) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66646,7.1154,0</coordinates></Point></Placemark>
+<Placemark><description>Camudmud, Igacos, Davao del Norte -- Camudmud BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70329,7.19286,0</coordinates></Point></Placemark>
+
+<Placemark><description>Kinawitnon, Igacos, Davao del Norte -- Kinawitnon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67963,7.12137,0</coordinates></Point></Placemark>
+<Placemark><description>Libuak, Igacos, Davao del Norte -- Libuak BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72709,7.16999,0</coordinates></Point></Placemark>
+<Placemark><description>Mambago - B, Igacos, Davao del Norte -- Mambago - B BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70115,7.105,0</coordinates></Point></Placemark>
+
+
+<Placemark><description>San Agustin, Igacos, Davao del Norte -- San Agustin BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70327,7.12942,0</coordinates></Point></Placemark>
+<Placemark><description>San Antonio, Igacos, Davao del Norte -- San Antonio BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74142,7.13485,0</coordinates></Point></Placemark>
+<Placemark><description>San Isidro, Igacos, Davao del Norte -- San Isidro BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71215,7.18416,0</coordinates></Point></Placemark>
+<Placemark><description>Santo Niño, Igacos, Davao del Norte -- Santo Niño BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7279,7.12427,0</coordinates></Point></Placemark>
+<Placemark><description>Tagpopongan, Igacos, Davao del Norte -- Tagpopongan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78786,7.12732,0</coordinates></Point></Placemark>
+<Placemark><description>Tambo, Igacos, Davao del Norte -- Tambo BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69005,7.16148,0</coordinates></Point></Placemark>
+<Placemark><description>Toril, Igacos, Davao del Norte -- Toril BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.49471,7.00729,0</coordinates></Point></Placemark>
+<Placemark><description>Alejal,Carmen, Davao del Norte -- Alejal BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.65868,7.38628,0</coordinates></Point></Placemark>
+<Placemark><description>Anibongan,Carmen, Davao del Norte -- Anibongan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71838,7.39577,0</coordinates></Point></Placemark>
+
+<Placemark><description>Cebulano,Carmen, Davao del Norte -- Cebulano BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66956,7.35095,0</coordinates></Point></Placemark>
+<Placemark><description>Guadalupe,Carmen, Davao del Norte -- Guadalupe BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74264,7.37771,0</coordinates></Point></Placemark>
+<Placemark><description>Ising (Pob),Carmen, Davao del Norte -- Ising (Pob) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70217,7.36158,0</coordinates></Point></Placemark>
+
+<Placemark><description>Mabaus,Carmen, Davao del Norte -- Mabaus BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74138,7.39827,0</coordinates></Point></Placemark>
+<Placemark><description>Mabuhay,Carmen, Davao del Norte -- Mabuhay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.54731,7.33436,0</coordinates></Point></Placemark>
+<Placemark><description>Magsaysay,Carmen, Davao del Norte -- Magsaysay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6357,7.39766,0</coordinates></Point></Placemark>
+<Placemark><description>Mangalcal,Carmen, Davao del Norte -- Mangalcal BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.65826,7.36716,0</coordinates></Point></Placemark>
+
+<Placemark><description>New Camiling,Carmen, Davao del Norte -- New Camiling BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66705,7.38184,0</coordinates></Point></Placemark>
+<Placemark><description>Salvacion,Carmen, Davao del Norte -- Salvacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67787,7.3279,0</coordinates></Point></Placemark>
+<Placemark><description>San Isidro,Carmen, Davao del Norte -- San Isidro BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7084,7.40499,0</coordinates></Point></Placemark>
+<Placemark><description>Santo Niño,Carmen, Davao del Norte -- Santo Niño BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69641,7.33693,0</coordinates></Point></Placemark>
+
+<Placemark><description>Tibulao,Carmen, Davao del Norte -- Tibulao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57669,7.39415,0</coordinates></Point></Placemark>
+<Placemark><description>Tubod,Carmen, Davao del Norte -- Tubod BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6421,7.37358,0</coordinates></Point></Placemark>
+<Placemark><description>Tuganay,Carmen, Davao del Norte -- Tuganay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.47192,7.64819,0</coordinates></Point></Placemark>
+<Placemark><description>Capungagan,Kapalong, Davao del Norte -- Capungagan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69197,7.63425,0</coordinates></Point></Placemark>
+<Placemark><description>Florida,Kapalong, Davao del Norte -- Florida BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.65774,7.7035,0</coordinates></Point></Placemark>
+<Placemark><description>Gabuyan,Kapalong, Davao del Norte -- Gabuyan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67055,7.61277,0</coordinates></Point></Placemark>
+<Placemark><description>Gupitan,Kapalong, Davao del Norte -- Gupitan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.64666,7.78333,0</coordinates></Point></Placemark>
+<Placemark><description>Katipunan,Kapalong, Davao del Norte -- Katipunan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.680833,7.63333,0</coordinates></Point></Placemark>
+<Placemark><description>Luna,Kapalong, Davao del Norte -- Luna BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66144,7.57014,0</coordinates></Point></Placemark>
+<Placemark><description>Mabantao,Kapalong, Davao del Norte -- Mabantao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.680277,7.65,0</coordinates></Point></Placemark>
+<Placemark><description>Mamacao,Kapalong, Davao del Norte -- Mamacao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71333,7.58722,0</coordinates></Point></Placemark>
+<Placemark><description>Maniki (Pob),Kapalong, Davao del Norte -- Maniki (Pob) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7065722,7.5872417,0</coordinates></Point></Placemark>
+<Placemark><description>Pag-asa,Kapalong, Davao del Norte -- Pag-asa BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.65,7.59855,0</coordinates></Point></Placemark>
+<Placemark><description>Sampao (Bienvenida),Kapalong, Davao del Norte -- Sampao (Bienvenida) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.65388,7.63611,0</coordinates></Point></Placemark>
+<Placemark><description>Semong (Sampao,Kapalong, Davao del Norte -- Semong (Sampao) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66611,7.71444,0</coordinates></Point></Placemark>
+<Placemark><description>Sua-on,Kapalong, Davao del Norte -- Sua-on BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.694722,7.6,0</coordinates></Point></Placemark>
+<Placemark><description>Adecor, Kaputian Dist.,Igakos,Davao del Norte -- Adecor BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7283,7.01946,0</coordinates></Point></Placemark>
+<Placemark><description>Anonang Kaputian Dist.,Igakos,Davao del Norte -- Anonang BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7405,7.01111,0</coordinates></Point></Placemark>
+<Placemark><description>Bandera Kaputian Dist.,Igakos,Davao del Norte -- Bandera BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74483,6.99168,0</coordinates></Point></Placemark>
+
+<Placemark><description>Dadatan Kaputian Dist.,Igakos,Davao del Norte -- Dadatan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6846,6.95589,0</coordinates></Point></Placemark>
+<Placemark><description>Kanaan Kaputian Dist.,Igakos,Davao del Norte -- Kanaan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76942,6.9755,0</coordinates></Point></Placemark>
+<Placemark><description>Libertad Kaputian Dist.,Igakos,Davao del Norte -- Libertad BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75091,6.93621,0</coordinates></Point></Placemark>
+<Placemark><description>Linosutan Kaputian Dist.,Igakos,Davao del Norte -- Linosutan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68161,6.93762,0</coordinates></Point></Placemark>
+<Placemark><description>Pangubatan (Talicod 1) Kaputian Dist.,Igakos,Davao del Norte -- Pangubatan (Talicod 1) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7705,6.94177,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion (Kaputian) Kaputian Dist.,Igakos,Davao del Norte -- Poblacion (Kaputian) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72242,6.9647,0</coordinates></Point></Placemark>
+<Placemark><description>San Isidro (Kaputian) Kaputian Dist.,Igakos,Davao del Norte -- San Isidro (Kaputian) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.74201,6.95189,0</coordinates></Point></Placemark>
+<Placemark><description>San Remigio Kaputian Dist.,Igakos,Davao del Norte -- San Remigio BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75764,6.90799,0</coordinates></Point></Placemark>
+<Placemark><description>Santa Cruz (Talicod II) Kaputian Dist.,Igakos,Davao del Norte -- Santa Cruz (Talicod II) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71621,6.93561,0</coordinates></Point></Placemark>
+<Placemark><description>Sion (Zion) Kaputian Dist.,Igakos,Davao del Norte -- Sion (Zion) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76125,6.95615,0</coordinates></Point></Placemark>
+<Placemark><description>Tagbaobo Kaputian Dist.,Igakos,Davao del Norte -- Tagbaobo BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76556,7.00313,0</coordinates></Point></Placemark>
+<Placemark><description>Cabidianan, New Corella,Davao del Norte -- Cabidianan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.86528,7.66873,0</coordinates></Point></Placemark>
+<Placemark><description>Carcor, New Corella,Davao del Norte -- Carcor BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8442,7.58939,0</coordinates></Point></Placemark>
+<Placemark><description>Del Monte, New Corella,Davao del Norte -- Del Monte BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.88816,7.60443,0</coordinates></Point></Placemark>
+<Placemark><description>Del Pilar, New Corella,Davao del Norte -- Del Pilar BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80179,7.56025,0</coordinates></Point></Placemark>
+<Placemark><description>El Salvador, New Corella,Davao del Norte -- El Salvador BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.92083,7.61013,0</coordinates></Point></Placemark>
+<Placemark><description>Limba-an, New Corella,Davao del Norte -- Limba-an BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.83644,7.62335,0</coordinates></Point></Placemark>
+<Placemark><description>Macgum, New Corella,Davao del Norte -- Macgum BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.81323,7.66716,0</coordinates></Point></Placemark>
+<Placemark><description>Mambing, New Corella,Davao del Norte -- Mambing BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.92394,7.65907,0</coordinates></Point></Placemark>
+<Placemark><description>Mesaoy, New Corella,Davao del Norte -- Mesaoy BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78904,7.53296,0</coordinates></Point></Placemark>
+
+<Placemark><description>New Cortez, New Corella,Davao del Norte -- New Cortez BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.84706,7.55681,0</coordinates></Point></Placemark>
+
+
+<Placemark><description>Poblacion, New Corella,Davao del Norte -- Poblacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8274056,7.589325,0</coordinates></Point></Placemark>
+<Placemark><description>San Jose, New Corella,Davao del Norte -- San Jose BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.84865,7.57668,0</coordinates></Point></Placemark>
+<Placemark><description>San Roque, New Corella,Davao del Norte -- San Roque BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7807,7.63635,0</coordinates></Point></Placemark>
+
+<Placemark><description>Santa Fe, New Corella,Davao del Norte -- Santa Fe BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.89841,7.62446,0</coordinates></Point></Placemark>
+<Placemark><description>Santo Niño, New Corella,Davao del Norte -- Santo Niño BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80215,7.64711,0</coordinates></Point></Placemark>
+<Placemark><description>Suawon, New Corella,Davao del Norte -- Suawon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.83393,7.65031,0</coordinates></Point></Placemark>
+<Placemark><description>A.O. Floirendo, Panabo City, Davao del Norte -- A.O. Floirendo BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.59802,7.3909,0</coordinates></Point></Placemark>
+<Placemark><description>Buenavista, Panabo City, Davao del Norte -- Buenavista BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.59055,7.275,0</coordinates></Point></Placemark>
+<Placemark><description>Cacao, Panabo City, Davao del Norte -- Cacao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.61221,7.31234,0</coordinates></Point></Placemark>
+<Placemark><description>Cagangohan, Panabo City, Davao del Norte -- Cagangohan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67635,7.29318,0</coordinates></Point></Placemark>
+<Placemark><description>Consolacion, Panabo City, Davao del Norte -- Consolacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57168,7.33121,0</coordinates></Point></Placemark>
+<Placemark><description>Dapco, Panabo City, Davao del Norte -- Dapco BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.63722,7.39416,0</coordinates></Point></Placemark>
+<Placemark><description>Datu Abdul Dadia, Panabo City, Davao del Norte -- Datu Abdul Dadia BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.655,7.31422,0</coordinates></Point></Placemark>
+<Placemark><description>Gredu (Pob.), Panabo City, Davao del Norte -- Gredu (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67833,7.29666,0</coordinates></Point></Placemark>
+<Placemark><description>J.P. Laurel, Panabo City, Davao del Norte -- J.P. Laurel BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66944,7.27555,0</coordinates></Point></Placemark>
+<Placemark><description>Kasilak, Panabo City, Davao del Norte -- Kasilak BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.59444,7.325833,0</coordinates></Point></Placemark>
+<Placemark><description>Katipunan, Panabo City, Davao del Norte -- Katipunan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.63111,7.3,0</coordinates></Point></Placemark>
+<Placemark><description>Katualan, Panabo City, Davao del Norte -- Katualan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.54945,7.26057,0</coordinates></Point></Placemark>
+<Placemark><description>Kauswagan, Panabo City, Davao del Norte -- Kauswagan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.58333,7.30944,0</coordinates></Point></Placemark>
+<Placemark><description>Kiotoy, Panabo City, Davao del Norte -- Kiotoy BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.58366,7.24836,0</coordinates></Point></Placemark>
+<Placemark><description>Little Panay, Panabo City, Davao del Norte -- Little Panay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.64777,7.29666,0</coordinates></Point></Placemark>
+<Placemark><description>Lower Panaga (Roxas), Panabo City, Davao del Norte -- Lower Panaga (Roxas) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57333,7.443055,0</coordinates></Point></Placemark>
+<Placemark><description>Mabunao, Panabo City, Davao del Norte -- Mabunao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.3836,7.279166,0</coordinates></Point></Placemark>
+<Placemark><description>Maduao, Panabo City, Davao del Norte -- Maduao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6288,7.27726,0</coordinates></Point></Placemark>
+<Placemark><description>Malativas, Panabo City, Davao del Norte -- Malativas BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.55005,7.31846,0</coordinates></Point></Placemark>
+<Placemark><description>Manay, Panabo City, Davao del Norte -- Manay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57423,7.34529,0</coordinates></Point></Placemark>
+<Placemark><description>Nanyo, Panabo City, Davao del Norte -- Nanyo BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.64057,7.3353,0</coordinates></Point></Placemark>
+<Placemark><description>New Malaga (Dalisay), Panabo City, Davao del Norte -- New Malaga (Dalisay) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57472,7.34444,0</coordinates></Point></Placemark>
+<Placemark><description>New Malitbog, Panabo City, Davao del Norte -- New Malitbog BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.602,7.3504,0</coordinates></Point></Placemark>
+<Placemark><description>New Pandan (Pob.), Panabo City, Davao del Norte -- New Pandan (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67972,7.29944,0</coordinates></Point></Placemark>
+<Placemark><description>New Visayas, Panabo City, Davao del Norte -- New Visayas BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.64846,7.32372,0</coordinates></Point></Placemark>
+<Placemark><description>Quezon, Panabo City, Davao del Norte -- Quezon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67916,7.33055,0</coordinates></Point></Placemark>
+<Placemark><description>Salvacion, Panabo City, Davao del Norte -- Salvacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68694,7.31833,0</coordinates></Point></Placemark>
+<Placemark><description>San Francisco (Pob.), Panabo City, Davao del Norte -- San Francisco (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68277,7.3075,0</coordinates></Point></Placemark>
+<Placemark><description>San Nicolas, Panabo City, Davao del Norte -- San Nicolas BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.61833,7.26305,0</coordinates></Point></Placemark>
+<Placemark><description>San Pedro, Panabo City, Davao del Norte -- San Pedro BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71,7.29611,0</coordinates></Point></Placemark>
+<Placemark><description>San Roque, Panabo City, Davao del Norte -- San Roque BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.54708,7.29099,0</coordinates></Point></Placemark>
+<Placemark><description>San Vicente, Panabo City, Davao del Norte -- San Vicente BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70027,7.30944,0</coordinates></Point></Placemark>
+<Placemark><description>Santa Cruz, Panabo City, Davao del Norte -- Santa Cruz BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.60527,7.22527,0</coordinates></Point></Placemark>
+<Placemark><description>Santo Niño (Pob.), Panabo City, Davao del Norte -- Santo Niño (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68666,7.30361,0</coordinates></Point></Placemark>
+<Placemark><description>Sindaton, Panabo City, Davao del Norte -- Sindaton BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.58444,7.43944,0</coordinates></Point></Placemark>
+<Placemark><description>Southern Davao, Panabo City, Davao del Norte -- Southern Davao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66144,7.33553,0</coordinates></Point></Placemark>
+<Placemark><description>Tagpore, Panabo City, Davao del Norte -- Tagpore BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62472,7.27416,0</coordinates></Point></Placemark>
+<Placemark><description>Tibungol, Panabo City, Davao del Norte -- Tibungol BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.56527,7.4975,0</coordinates></Point></Placemark>
+<Placemark><description>Upper Licanan, Panabo City, Davao del Norte -- Upper Licanan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6322,7.28527,0</coordinates></Point></Placemark>
+<Placemark><description>Waterfall, Panabo City, Davao del Norte -- Waterfall BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.591388,7.23833,0</coordinates></Point></Placemark>
+<Placemark><description>Aumbay,Samal District,  Igacos, Davao del Norte -- Aumbay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76159,7.03847,0</coordinates></Point></Placemark>
+<Placemark><description>Aundanao,Samal District,  Igacos, Davao del Norte -- Aundanao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78218,7.09488,0</coordinates></Point></Placemark>
+<Placemark><description>Catagman,Samal District,  Igacos, Davao del Norte -- Catagman BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68353,7.07475,0</coordinates></Point></Placemark>
+<Placemark><description>Cawag,Samal District,  Igacos, Davao del Norte -- Cawag BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72022,7.06367,0</coordinates></Point></Placemark>
+<Placemark><description>Del Monte,Samal District,  Igacos, Davao del Norte -- Del Monte BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.73595,7.04793,0</coordinates></Point></Placemark>
+<Placemark><description>Guilon,Samal District,  Igacos, Davao del Norte -- Guilon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.73753,7.07072,0</coordinates></Point></Placemark>
+<Placemark><description>Licup,Samal District,  Igacos, Davao del Norte -- Licup BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.73564,7.08943,0</coordinates></Point></Placemark>
+<Placemark><description>Limao,Samal District,  Igacos, Davao del Norte -- Limao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66833,7.09137,0</coordinates></Point></Placemark>
+<Placemark><description>Mambago - A,Samal District,  Igacos, Davao del Norte -- Mambago - A BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69129,7.11623,0</coordinates></Point></Placemark>
+<Placemark><description>Peñaplata (Pob.),Samal District,  Igacos, Davao del Norte -- Peñaplata (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71042,7.07585,0</coordinates></Point></Placemark>
+<Placemark><description>San Jose (San Lapuz),Samal District,  Igacos, Davao del Norte -- San Jose (San Lapuz) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72716,7.04181,0</coordinates></Point></Placemark>
+<Placemark><description>San Miguel (Magamono),Samal District,  Igacos, Davao del Norte -- San Miguel (Magamono) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68812,7.09429,0</coordinates></Point></Placemark>
+<Placemark><description>Tagbay,Samal District,  Igacos, Davao del Norte -- Tagbay BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76199,7.0499,0</coordinates></Point></Placemark>
+<Placemark><description>Tagbitan-ag,Samal District,  Igacos, Davao del Norte -- Tagbitan-ag BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75177,7.08607,0</coordinates></Point></Placemark>
+<Placemark><description>Tagdaliao,Samal District,  Igacos, Davao del Norte -- Tagdaliao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71818,7.09931,0</coordinates></Point></Placemark>
+<Placemark><description>Igangon, San Isidro, Davao del Norte -- Igangon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.76181,7.68945,0</coordinates></Point></Placemark>
+
+<Placemark><description>Libuton, San Isidro, Davao del Norte -- Libuton BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69086,7.74654,0</coordinates></Point></Placemark>
+<Placemark><description>Linao, San Isidro, Davao del Norte -- Linao BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66168,7.76169,0</coordinates></Point></Placemark>
+<Placemark><description>Monte Dujali, San Isidro, Davao del Norte -- Monte Dujali BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.63577,7.81645,0</coordinates></Point></Placemark>
+<Placemark><description>Balagunan, Sto. Tomas, Davao del Norte -- Balagunan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.58709,7.48755,0</coordinates></Point></Placemark>
+<Placemark><description>Bobongan, Sto. Tomas, Davao del Norte -- Bobongan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.59793,7.49416,0</coordinates></Point></Placemark>
+<Placemark><description>Casig-Ang, Sto. Tomas, Davao del Norte -- Casig-Ang BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.66235,7.46708,0</coordinates></Point></Placemark>
+<Placemark><description>Esperanza, Sto. Tomas, Davao del Norte -- Esperanza BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72559,7.49381,0</coordinates></Point></Placemark>
+<Placemark><description>Kimamon, Sto. Tomas, Davao del Norte -- Kimamon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69051,7.54819,0</coordinates></Point></Placemark>
+<Placemark><description>Kinamayan, Sto. Tomas, Davao del Norte -- Kinamayan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67192,7.50044,0</coordinates></Point></Placemark>
+<Placemark><description>La Libertad, Sto. Tomas, Davao del Norte -- La Libertad BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.64659,7.48206,0</coordinates></Point></Placemark>
+<Placemark><description>Lungaog, Sto. Tomas, Davao del Norte -- Lungaog BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.57194,7.54129,0</coordinates></Point></Placemark>
+<Placemark><description>Magwawa, Sto. Tomas, Davao del Norte -- Magwawa BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.31827,7.30338,0</coordinates></Point></Placemark>
+<Placemark><description>New Katipunan, Sto. Tomas, Davao del Norte -- New Katipunan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.63588,7.54797,0</coordinates></Point></Placemark>
+<Placemark><description>New Visayas, Sto. Tomas, Davao del Norte -- New Visayas BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.60891,7.53119,0</coordinates></Point></Placemark>
+<Placemark><description>Pantaron, Sto. Tomas, Davao del Norte -- Pantaron BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67135,7.53938,0</coordinates></Point></Placemark>
+<Placemark><description>Salvacion, Sto. Tomas, Davao del Norte -- Salvacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70764,7.48696,0</coordinates></Point></Placemark>
+<Placemark><description>San Jose, Sto. Tomas, Davao del Norte -- San Jose BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6032,7.54384,0</coordinates></Point></Placemark>
+<Placemark><description>San Miguel, Sto. Tomas, Davao del Norte -- San Miguel BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67497,7.48713,0</coordinates></Point></Placemark>
+<Placemark><description>San Vicente, Sto. Tomas, Davao del Norte -- San Vicente BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.71295,7.47034,0</coordinates></Point></Placemark>
+<Placemark><description>Talomo, Sto. Tomas, Davao del Norte -- Talomo BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72309,7.5283,0</coordinates></Point></Placemark>
+<Placemark><description>Tibal-og (Pob.), Sto. Tomas, Davao del Norte -- Tibal-og (Pob.) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6214611,7.534575,0</coordinates></Point></Placemark>
+
+<Placemark><description>Apokon, Tagum City, Davao del Norte -- Apokon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8259,7.42367,0</coordinates></Point></Placemark>
+<Placemark><description>Bincungan, Tagum City, Davao del Norte -- Bincungan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75441,7.37724,0</coordinates></Point></Placemark>
+<Placemark><description>Busaon, Tagum City, Davao del Norte -- Busaon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75443,7.35724,0</coordinates></Point></Placemark>
+<Placemark><description>Canocotan, Tagum City, Davao del Norte -- Canocotan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78297,7.41305,0</coordinates></Point></Placemark>
+<Placemark><description>Cuambogan, Tagum City, Davao del Norte -- Cuambogan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.79165,7.49225,0</coordinates></Point></Placemark>
+<Placemark><description>La Filipina, Tagum City, Davao del Norte -- La Filipina BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80271,7.47517,0</coordinates></Point></Placemark>
+<Placemark><description>Liboganon, Tagum City, Davao del Norte -- Liboganon BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.77739,7.3475,0</coordinates></Point></Placemark>
+<Placemark><description>Madaum, Tagum City, Davao del Norte -- Madaum-Katipunan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8344,7.46932,0</coordinates></Point></Placemark>
+<Placemark><description>Magdum, Tagum City, Davao del Norte -- Madaum-Garinan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80997,7.38532,0</coordinates></Point></Placemark>
+<Placemark><description>Madaum, Tagum City, Davao del Norte -- Madaum-Barrio BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.82672,7.36552,0</coordinates></Point></Placemark>
+<Placemark><description>Magdum, Tagum City, Davao del Norte -- Magdum BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80853,7.3764,0</coordinates></Point></Placemark>
+<Placemark><description>Magugpo East, Tagum City, Davao del Norte -- Magugpo East BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.82012,7.44892,0</coordinates></Point></Placemark>
+<Placemark><description>Magugpo North, Tagum City, Davao del Norte -- Magugpo North BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.81438,7.4603,0</coordinates></Point></Placemark>
+<Placemark><description>Magugpo Poblacion, Tagum City, Davao del Norte -- Magugpo Poblacion BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.81131,7.45086,0</coordinates></Point></Placemark>
+<Placemark><description>Magugpo South, Tagum City, Davao del Norte -- Magugpo South BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.79487,7.44765,0</coordinates></Point></Placemark>
+<Placemark><description>Magugpo West, Tagum City, Davao del Norte -- Magugpo West BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80324,7.45719,0</coordinates></Point></Placemark>
+<Placemark><description>Mankilam, Tagum City, Davao del Norte -- Mankilam BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78758,7.46009,0</coordinates></Point></Placemark>
+<Placemark><description>New Balamban, Tagum City, Davao del Norte -- New Balamban BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8457,7.49694,0</coordinates></Point></Placemark>
+<Placemark><description>Nueva Fuerza, Tagum City, Davao del Norte -- Nueva Fuerza BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.81483,7.49902,0</coordinates></Point></Placemark>
+<Placemark><description>Pagsabangan, Tagum City, Davao del Norte -- Pagsabangan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.75197,7.4821,0</coordinates></Point></Placemark>
+<Placemark><description>Pandapan, Tagum City, Davao del Norte -- Pandapan BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.87476,7.48235,0</coordinates></Point></Placemark>
+<Placemark><description>San Agustin, Tagum City, Davao del Norte -- San Agustin BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.83028,7.49436,0</coordinates></Point></Placemark>
+<Placemark><description>San Isidro, Tagum City, Davao del Norte -- San Isidro BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.78477,7.3942,0</coordinates></Point></Placemark>
+<Placemark><description>San Miguel (Camp 4), Tagum City, Davao del Norte -- San Miguel (Camp 4) BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7756,7.44224,0</coordinates></Point></Placemark>
+<Placemark><description>Visayan Village-Narra , Tagum City, Davao del Norte -- Visayan Village-Narra BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80032,7.42888,0</coordinates></Point></Placemark>
+<Placemark><description>Visayan Village-1 , Tagum City, Davao del Norte -- Visayan Village-1 BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.80956,7.43204,0</coordinates></Point></Placemark>
+<Placemark><description>Visayan Village-2, Tagum City, Davao del Norte -- Visayan Village-2 BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.81025,7.44288,0</coordinates></Point></Placemark>
+<Placemark><description>Dagohoy, Talaingod, Davao del Norte -- Dagohoy BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62213,7.65909,0</coordinates></Point></Placemark>
+<Placemark><description>Palma Gil, Talaingod, Davao del Norte -- Palma Gil BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62914,7.64164,0</coordinates></Point></Placemark>
+<Placemark><description>Santo Niño, Talaingod, Davao del Norte -- Santo Niño BHS</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.61865,7.6254,0</coordinates></Point></Placemark>
+
+<Placemark><description>Poblacion, Carmen, Davao del Norte -- Carmen District Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7022111,7.3542139,0</coordinates></Point></Placemark>
+<Placemark><description>Carmen, Davao del Norte -- Carmen Medical Clinic</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69417,7.33172,0</coordinates></Point></Placemark>
+<Placemark><description>Peñaplata,Igacos, Davao del Norte -- Samal District Hospital </description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7072944,7.0762417,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Kapalong, Davao del Norte -- Kapalong District Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70635,7.5854917,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Kapalong, Davao del Norte -- Alegre Medical Clinic</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70559,7.58465,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Kapalong, Davao del Norte -- Salomon-Mangilet Maternity and Medical Clinic</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70567,7.58609,0</coordinates></Point></Placemark>
+<Placemark><description>Panabo City, Davao del Norte -- Carmelite Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68279,7.30623,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Panabo City, Davao del Norte -- Zafra Medical Clinic</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68098,7.30201,0</coordinates></Point></Placemark>
+
+<Placemark><description>Poblacion, Panabo City, Davao del Norte -- Somoso General Hospital, Incorporated</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68486,7.303707,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Panabo City, Davao del Norte -- Panabo Polymedic Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.679112,7.303341,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Panabo City, Davao del Norte -- Rivera Medical Center, Inc.</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.685954,7.313093,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- Bungabong-Sanico Medical Clinic & Maternity Hosp.</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.67496,7.50185,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- Cainglet Medical Clinic</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.68668,7.31469,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- Espiritu Medical Clinic & Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62355,7.52848,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- Estela Medical Clinic & Pharmacy</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62378,7.52716,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- MEPI Medical Clinic/Hosp.</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.62674,7.50749,0</coordinates></Point></Placemark>
+<Placemark><description>Sto. Tomas, Sto. Tomas, Davao del Norte -- Matutes Medical Clinic & Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6236,7.52793,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Tagum City, Davao del Norte -- United Doctor's Hospital of Tagum, Inc.</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.802703,7.44308,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Tagum City, Davao del Norte -- Medical Mission Group Hospital & Health Services</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.792985,7.431794,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Tagum City, Davao del Norte -- Tagum Doctors Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.803598,7.438986,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Tagum City, Davao del Norte -- Bishop Joseph Regan Memorial Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.813541,7.446858,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Asuncion, Davao del Norte -- Asuncion RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7537667,7.540325,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Igacos, Davao del Norte -- Babak RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6926556,7.1346306,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Carmen, Davao del Norte -- Carmen RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7034056,7.3537972,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Dujali, Davao del Norte -- Dujali RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.69051,7.4477,0</coordinates></Point></Placemark>
+
+<Placemark><description>Poblacion,Kapalong, Davao del Norte -- Kapalong RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7065722,7.5872417,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion -- Kaputian District RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.72435,6.9523528,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, New Corella,Davao del Norte -- New Corella RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8274056,7.589325,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Panabo City, Davao del Norte -- Panabo City RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6811833,7.3001028,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Samal District,  Igacos, Davao del Norte -- Samal District RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7077111,7.075575,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, San Isidro, Davao del Norte -- San Isidro RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.70436,7.76494,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Sto. Tomas, Davao del Norte -- Sto. Tomas RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.6214611,7.534575,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion, Tagum City, Davao del Norte -- Tagum City RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.7936556,7.449075,0</coordinates></Point></Placemark>
+<Placemark><description>Poblacion,Talaingod, Davao del Norte -- Talaingod RHU</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.5731,7.6337972,0</coordinates></Point></Placemark>
+<Placemark><description>Apokon, Tagum City, Davao del Norte -- Davao Regional Hospital</description><styleUrl>#msn_blue-pushpin</styleUrl><Point><coordinates>125.8268222,7.4232139,0</coordinates></Point></Placemark>

@@ -45,7 +45,7 @@ var layers ;
 var spreadsheets = [
 	
 	{
-		'key' : '01g9TJgPIi7mwe8OCEc9Jd3Nk_f9IeHc8gSse9EW6-HTI',
+		'key' : '1g9TJgPIi7mwe8OCEc9Jd3Nk_f9IeHc8gSse9EW6-HTI',
 		'description' : '2010',
 		'keyword' : '2010',
 		'marker' : 'static/hospital_.png',

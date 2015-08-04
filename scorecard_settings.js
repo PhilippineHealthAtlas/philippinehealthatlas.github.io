@@ -1,27 +1,27 @@
 var spreadsheets = [
 {
-		'key' : '0AoBD4uHCApskdGE5S21tc3lmVHVQRU9VVFBwZENUcVE/od6',
+		'key' : '1ZpIe4uQ4vw4--BoEWENuv8pXwZn50GqfNFk-y0cjuxc/od6',
 		description : 'LGU Scorecard (2006)',
 		'keyword' : '2006',
 		'marker' : 'static/hospital_.png',
 		'callback' : 'load_provinces'
 	},
 	{
-		'key' : '0AoBD4uHCApskdGE5S21tc3lmVHVQRU9VVFBwZENUcVE/od7',
+		'key' : '1ZpIe4uQ4vw4--BoEWENuv8pXwZn50GqfNFk-y0cjuxc/od7',
 		description : 'LGU Scorecard (2007)',
 		'keyword' : '2007',
 		'marker' : 'static/hospital_.png',
 		'callback' : 'load_provinces'
 	},
 	{
-		'key' : '0AoBD4uHCApskdGE5S21tc3lmVHVQRU9VVFBwZENUcVE/od4',
+		'key' : '1ZpIe4uQ4vw4--BoEWENuv8pXwZn50GqfNFk-y0cjuxc/od4',
 		description : 'LGU Scorecard (2008)',
 		'keyword' : '2008',
 		'marker' : 'static/hospital_.png',
 		'callback' : 'load_provinces'
 	},
 	{
-		'key' : '0AoBD4uHCApskdGE5S21tc3lmVHVQRU9VVFBwZENUcVE/od5',
+		'key' : '1ZpIe4uQ4vw4--BoEWENuv8pXwZn50GqfNFk-y0cjuxc/od5',
 		description : 'LGU Scorecard (2009)',
 		'keyword' : '2009',
 		'marker' : 'static/hospital_.png',
@@ -43,7 +43,7 @@ function commatize(num) {
 }
 
 var settings = {
-	'key' : '0AoBD4uHCApskdGE5S21tc3lmVHVQRU9VVFBwZENUcVE/ock',
+	'key' : '1ZpIe4uQ4vw4--BoEWENuv8pXwZn50GqfNFk-y0cjuxc/ock',
 	'provname' : 'b'
 };
 

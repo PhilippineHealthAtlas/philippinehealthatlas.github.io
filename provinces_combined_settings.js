@@ -143,7 +143,7 @@ var attributes = {
 		'is_indicator' : false,
 		'description' : '<acronym title="National Household Targeting System">NHTS</acronym> Households'
 	},
-	'ofhhenrolledincct' : {
+	'percenthhenrolledincct' : {
 		
 		'is_indicator' : true,
 		'categ' : function(val) { 

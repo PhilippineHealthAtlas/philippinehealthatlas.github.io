@@ -139,7 +139,7 @@ function loadPolygonSpreadsheets() {
 		disableDefaultUI: false,
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
-	if (!map.setCenter) {
+	if (!map) {
 		map = new google.maps.Map(document.getElementById("map"), initOptions); 
 	}
 		
@@ -337,10 +337,10 @@ function createProvince(province_coords,name, group) {
 	var province_poly = new google.maps.Polygon({
 		paths: province_coords,
 		strokeColor: "#000000",
-		strokeOpacity: 0.9,
+		strokeOpacity: 1,
 		strokeWeight: 1,
 		fillColor: "#777",
-		fillOpacity: 0.5
+		fillOpacity: 11
 	});
 	google.maps.event.addListener(province_poly, 'click', showPolygonInfoWindow);
 	$(province_poly).data('datum', {'name': name, 'group' : group});

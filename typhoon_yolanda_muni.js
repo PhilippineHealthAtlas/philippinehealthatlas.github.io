@@ -10,7 +10,9 @@ var spreadsheets = [
 		'keyword' : 'DOH_Retained_Hospital',
 		'marker' : '1hospital.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
+		
 	},
 	{
 		'key' : '1hcS-OTajzxhLSoGhpVLyxaHNArA8cPdk2Ks6hELKl9E/od6',
@@ -18,7 +20,8 @@ var spreadsheets = [
 		'keyword' : 'LGU_Hospital',
 		'marker' : '2hospital.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
 	},
 	{
 		'key' : '1hcS-OTajzxhLSoGhpVLyxaHNArA8cPdk2Ks6hELKl9E/ocy',
@@ -26,7 +29,8 @@ var spreadsheets = [
 		'keyword' : 'Military_Hospital',
 		'marker' : '3hospital.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
 	},
 	{
 		'key' : '1hcS-OTajzxhLSoGhpVLyxaHNArA8cPdk2Ks6hELKl9E/ocz',
@@ -34,7 +38,8 @@ var spreadsheets = [
 		'keyword' : 'University_Hospital',
 		'marker' : '4hospital.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
 	},
 	{
 		'key' : '1pR7ANIDk7GlQu_izej3QVUiZJw3JxvYL7WeXhCcE6QI/od6',
@@ -43,7 +48,8 @@ var spreadsheets = [
 		'marker' : '5hospital.png',
 		'hideLayer' : true,
 		size:12,
-		zIndex: 1
+		zIndex:4 
+		
 	},
 	{
 		'key' : '1qRdfeR2h6pxZM8MI2Fnn6kM276tIurBaLx2FvBC0aXE/od7',
@@ -51,7 +57,8 @@ var spreadsheets = [
 		'keyword' : 'Rural_Health_Unit',
 		'marker' : 'rhu12x12.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
 	},
 	{
 		'key' : '1qRdfeR2h6pxZM8MI2Fnn6kM276tIurBaLx2FvBC0aXE/odb',
@@ -59,7 +66,8 @@ var spreadsheets = [
 		'keyword' : 'Barangay_Health_Station',
 		'marker' : 'bhs12x12.png',
 		'hideLayer' : true,
-		size:12
+		size:12,
+		zIndex:4 
 	},
 	{ 
 		'is_title' : true,
@@ -83,7 +91,8 @@ var spreadsheets = [
 		'keyword' : 'Fully_Damaged',
 		'marker' : 'fullydamaged22x22.png',
 		'hideLayer' : true,
-		size:22
+		size:22,
+		zIndex:2
 	},
 	{
 		'key' : '1geuPMjGcUf0fSovf0DqsLk9R6CQihT3wAOwBXYjwOk4/ocr',
@@ -91,7 +100,8 @@ var spreadsheets = [
 		'keyword' : 'Partially_Damaged',
 		'marker' : 'partialdamage22x22.png',
 		'hideLayer' : true,
-		size:22
+		size:22,
+		zIndex:2
 	},
 	{
 		'key' : '1geuPMjGcUf0fSovf0DqsLk9R6CQihT3wAOwBXYjwOk4/ocv',
@@ -99,7 +109,8 @@ var spreadsheets = [
 		'keyword' : 'Intact',
 		'marker' : 'intact22x22.png',
 		'hideLayer' : true,
-		size:22
+		size:22,
+		zIndex:2
 	},
 	{
 		'key' : '1geuPMjGcUf0fSovf0DqsLk9R6CQihT3wAOwBXYjwOk4/ocu',
@@ -107,7 +118,8 @@ var spreadsheets = [
 		'keyword' : 'To_be_Determined',
 		'marker' : 'tbd22x22.png',
 		'hideLayer' : true,
-		size:22
+		size:22,
+		zIndex:2
 	},
 	{ 
 		'is_title' : true,
@@ -119,7 +131,8 @@ var spreadsheets = [
 		'keyword' : 'Functional_Facility',
 		'marker' : 'func2.png',
 		'hideLayer' : true,
-		size:28
+		size:28,
+		zIndex:1 
 	},
 	{
 		'key' : '1geuPMjGcUf0fSovf0DqsLk9R6CQihT3wAOwBXYjwOk4/od2',
@@ -127,7 +140,8 @@ var spreadsheets = [
 		'keyword' : 'Non_Functional_Facility',
 		'marker' : 'nonfunc.png',
 		'hideLayer' : true,
-		size:28
+		size:28,
+		zIndex:1 
 	},
 	{
 		'key' : '1geuPMjGcUf0fSovf0DqsLk9R6CQihT3wAOwBXYjwOk4/ocp',
@@ -135,7 +149,8 @@ var spreadsheets = [
 		'keyword' : 'To_be_Detemined_Facility',
 		'marker' : 'tbd28x28.png',
 		'hideLayer' : true,
-		size:28
+		size:28,
+		zIndex:1 
 	},
 	{ 
 		'is_title' : true,
@@ -155,7 +170,8 @@ var spreadsheets = [
 		'keyword' : 'Local_Teams',
 		'marker' : 'volun.png',
 		'hideLayer' : true,
-		size:20
+		size:20,
+		zIndex:3
 	},
 	{
 		'key' : '1_r5jqCsSQYExoti1J-tdnc49HyK5KOHT2mFS1aQjo18/od5',
@@ -163,7 +179,8 @@ var spreadsheets = [
 		'keyword' : 'Foreign_Teams',
 		'marker' : 'foreignx.png',
 		'hideLayer' : true,
-		size:20
+		size:20,
+		zIndex:3
 	},
 	{
 		'is_title' : true,

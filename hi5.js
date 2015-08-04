@@ -1,55 +1,68 @@
 
-var spreadsheets = [
+	var spreadsheets = [
 	{ 
 		'is_title' : true,
 		'description' : '<br/><h2>Health Facilities</h2>'
 	},
 	{
-		'key' : '1FnyzW9sw9zKzkwBERLvsGPz9Y82-lgbBLEj0ti5lDks/oxl58p3',
-		'description' : 'NICU',
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/od9',
+		'description' : 'DOH Retained Hospital',
 		'keyword' : 'DOH_Retained_Hospital',
 		'marker' : '1hospital.png',
-		'hideLayer' : false,
+		'hideLayer' : true,
 		size:12
-	}
-	
-];
-
-var polygon_spreadsheets = [
-	{ 
-		'is_title' : true,
-		'description' : '<h2>Health Statistics</h2>'
 	},
 	{
-		'key' : '1-zJW3eGcYdq0LOSYJMp-zrLcG_osg3nnp2SJ2M12RHM/od6',
-		'description' : 'Provincial Profile 2010',
-		'keyword' : 'Province 2010',
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/od6',
+		'description' : 'LGU Hospital',
+		'keyword' : 'LGU_Hospital',
+		'marker' : '2hospital.png',
+		'hideLayer' : true,
+		size:12
+	},
+	{
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/ocy',
+		'description' : 'Military Hospital',
+		'keyword' : 'Military_Hospital',
+		'marker' : '3hospital.png',
+		'hideLayer' : true,
+		size:12
+	},
+	{
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/ocz',
+		'description' : 'University Hospital',
+		'keyword' : 'University_Hospital',
+		'marker' : '4hospital.png',
+		'hideLayer' : true,
+		size:12
+	},
+	{
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/oihczgz',
+		'description' : 'Private Hospitals',
+		'keyword' : 'Private_Hospitals',
+		'marker' : '5hospital.png',
+		'hideLayer' : true,
+		size:12,
+		zIndex: 1
+	},
+	{
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/osybw1b',
+		'description' : 'Rural Health Unit',
+		'keyword' : 'Rural_Health_Unit',
+		'marker' : 'rhu12x12.png',
+		'hideLayer' : true,
+		size:12
+	},
+	{
+		'key' : '179NvlfK11Al0V5FDtKQapjyY1aNYXZgfPE79mRaGq9g/oolerhc',
+		'description' : 'Private Diagnostic Clinics',
+		'keyword' : 'Private_Diagnostic_Clinics',
+		'marker' : 'd2.png',
 		'hideLayer' : true,
 		size:12
 	}
 	
 ];
-
-var settings = {
-	'provname' : 'provname',
-	noInfoWindow: true,
-	showList : false,
-    minZoom: 5
-};
-
-var attributes = {
-}
-
-
-function getDetails() {
-
-	return '</br><span style="color:green;background-color:green">__</span> > ' + this.target_cutoff
-			+ ( this.ave_cutoff < this.target_cutoff ? '</br><span style="color:yellow;background-color:yellow">__</span> ' + (this.ave_cutoff + 1) + ' - ' + this.target_cutoff : '')
-			+'</br><span style="color:red;background-color:red">__</span> 0 '
-			+'</br><span style="color:gray;background-color:gray">__</span> No Data';
-			
-}
-
 function showImages(image) {
 	image = image.split(',');
 	var newtext = '';
@@ -63,27 +76,57 @@ function showImages(image) {
 function getInfoText(datum) {
 	return ''
 	
-		+ (datum.healthfacilitycode && datum.healthfacilitycode.length > 0? '<br/><b>Health Facility Code</b>: ' + datum.healthfacilitycode : '')
-		+ (1 > 0? '<br/><b>Address</b>: '  : '')
-		+ (datum.completeaddress && datum.completeaddress.length > 0? '<br/>' + datum.completeaddress : '')
-		+ (datum.barangayname && datum.barangayname.length > 0? '<br/>' + datum.barangayname : '')
-		+ (datum.municipalityname && datum.municipalityname.length > 0? '<br/>' + datum.municipalityname : '')
-		+ (datum.provincename && datum.provincename.length > 0? '<br/>' + datum.provincename : '')
-		+ (datum.regionname && datum.regionname.length > 0? '<br/>' + datum.regionname : '')
++ (datum.dohfacilitycode && datum.dohfacilitycode.length > 0? '<br/><b>DOH Health Facility Code</b>: ' + datum.dohfacilitycode : '')
+		+ (datum.adr && datum.adr.length > 0? '<br/><b>Address</b>: ' + datum.adr : '')
+		+ (datum.completeaddress && datum.completeaddress.length > 0? '<br/><b>Complete Address</b>: ' + datum.completeaddress : '')
+		+ (datum.regionname && datum.regionname.length > 0? '<br/><b>Region Name</b>: ' + datum.regionname : '')
+		+ (datum.provincename && datum.provincename.length > 0? '<br/><b>Province Name</b>: ' + datum.provincename : '')
+		+ (datum.municipalityname && datum.municipalityname.length > 0? '<br/><b>Municipality Name</b>: ' + datum.municipalityname : '')
+		+ (datum.barangayname && datum.barangayname.length > 0? '<br/><b>Barangay Name</b>: ' + datum.barangayname : '')
 	
-	
-	// Basic Information	
-		+ '<br/><br/><h2>Basic Information</h2>'
-		+ (datum.landlinenumber && datum.landlinenumber.length > 0? '<br/><b>Landline Number</b>: ' + datum.landlinenumber : '')
+		// Basic Information	
+		+ (datum.facilitytype || datum.medicaldirector || datum.headofthefacility || datum.bnb || datum.bemonc || datum.birthingfattached  ? '<br/><br/><h2>Basic Information</h2>':'')
+		+ (datum.facilitytype && datum.facilitytype.length > 0? '<br/><b>Type of Facility</b>: ' + datum.facilitytype : '')
+		+ (datum.medicaldirector && datum.medicaldirector.length > 0? '<br/><b>Medical Director</b>: ' + datum.medicaldirector : '')
+		+ (datum.headofthefacility && datum.headofthefacility.length > 0? '<br/><b>Head of the Facility</b>: ' + datum.headofthefacility : '')
+		+ (datum.telephonenumber && datum.telephonenumber.length > 0? '<br/><b>Telephone Number</b>: ' + datum.telephonenumber : '')
+		+ (datum.cellphonenumber && datum.cellphonenumber.length > 0? '<br/><b>Cellphone Number</b>: ' + datum.cellphonenumber : '')
+		+ (datum.emailadd && datum.emailadd.length > 0? '<br/><b>Email Address</b>: ' + datum.emailadd : '')
+		+ (datum.ownership && datum.ownership.length > 0? '<br/><b>Ownership</b>: ' + datum.ownership : '')
+		+ (datum.authorizedbedcapacity && datum.authorizedbedcapacity.length > 0? '<br/><b>Authorized Bed Capacity</b>: ' + datum.authorizedbedcapacity : '')
+		+ (datum.servicecapability && datum.servicecapability.length > 0? '<br/><b>Service Capability</b>: ' + datum.servicecapability : '')
+
+
+		// Hi-5 Impact Services
+		+ (datum.nicu || datum.hivtreatmenthubs ? '<br/><br/><h2>Hi-5 Impact Services</h2>':'')
+		+ (datum.nicu && datum.nicu.length > 0? '<br/><b>NICU Services</b>: ' + datum.nicu : '')
+		+ (datum.hivtreatmenthubs && datum.hivtreatmenthubs.length > 0? '<br/><b>HIV Treatment Hubs</b>: ' + datum.hivtreatmenthubs : '')
+		+ (datum.hivcounsellingandtestingcenter && datum.hivcounsellingandtestingcenter.length > 0? '<br/><b>HIV Counselling and Testing Center</b>: ' + datum.hivcounsellingandtestingcenter : '')
 		
-		// Perinatologist
+		// Perinatologists
+		+ (datum.peri1 ? '<br/><br/><h2>Perinatologists</h2>':'')
 		+ (datum.peri1 && datum.peri1.length > 0? '<br/><b>Perinatologists</b>: <br/> ' + datum.peri1 : '')
+		
+		// Neonatologist
+		+ (datum.neonatologist ? '<br/><br/><h2>Neonatologist</h2>':'')
 		+ (datum.neonatologist && datum.neonatologist.length > 0? '<br/><b>Neonatologist</b>: <br/> ' + datum.neonatologist : '')
 		
+		// HIV Treatment Hubs
+		+ (datum.hactchair ? '<br/><br/><h2>HIV Treatment Hubs</h2>':'')
+		+ (datum.hactchair && datum.hactchair.length > 0? '<br/><b>HACT Chair</b>: <br/> ' + datum.hactchair : '')
 		
+		// HIV Counselling and Testing Centers
+		+ (datum.hivcounselor ? '<br/><br/><h2>HIV Treatment Hubs</h2>':'')
+		+ (datum.hivcounselor && datum.hivcounselor.length > 0? '<br/><b>HIV Counselor/s</b>: <br/> ' + datum.hivcounselor : '')
+		
+		// Gallery
+		+ (datum.image ? '<br/><br/><h2>Gallery</h2>':'')
+		+'<table>'
+		+ (datum.image && datum.image.length > 0? '<tr><th colspan="2">Image </th></tr><tr><td colspan="2"><div style="max-height:300px; overflow:auto;">' + showImages(datum.image)+'</div></td></tr>' : '')
+		+'</table>'
 		;
-		
-} 	
+			
+} 		
 
 var facility_attributes = {
 
@@ -134,93 +177,77 @@ var facility_attributes = {
 		'details': 
 			'</br><img src="green.png"> Has Neonatologist'
 			+'</br><img src="5p.png"> No Data'
+	},
+	'bloodcenters' : {
+		
+		'is_indicator' : true,
+		'description' : 'Blood Centers',
+		'categ' : function(val) { 
+			if (val.length > 0) {
+				return "green.png";
+			}
+			else return "5p.png";
+			},
+		'details': 
+			'</br><img src="green.png"> Has Blood Centers'
+			+'</br><img src="5p.png"> No Data'
+	},		
+	'bloodbanks' : {
+		
+		'is_indicator' : true,
+		'description' : 'Blood Banks',
+		'categ' : function(val) { 
+			if (val.length > 0) {
+				return "green.png";
+			}
+			else return "5p.png";
+			},
+		'details': 
+			'</br><img src="green.png"> Has Blood Banks'
+			+'</br><img src="5p.png"> No Data'
+	},	
+	'bloodcollectingunits' : {
+		
+		'is_indicator' : true,
+		'description' : 'Blood Collecting Units',
+		'categ' : function(val) { 
+			if (val.length > 0) {
+				return "green.png";
+			}
+			else return "5p.png";
+			},
+		'details': 
+			'</br><img src="green.png"> Has Blood Collecting Units'
+			+'</br><img src="5p.png"> No Data'
+	},			
+	'hivtreatmenthubs' : {
+		
+		'is_indicator' : true,
+		'description' : 'HIV Treatment Hubs',
+		'categ' : function(val) { 
+			if (val.length > 0) {
+				return "green.png";
+			}
+			else return "5p.png";
+			},
+		'details': 
+			'</br><img src="green.png"> Has HIV Treatment Hubs'
+			+'</br><img src="5p.png"> No Data'
+	},
+	'hivcounsellingandtestingcenter' : {
+		
+		'is_indicator' : true,
+		'description' : 'HIV Counselling and Testing Centers',
+		'categ' : function(val) { 
+			if (val.length > 0) {
+				return "green.png";
+			}
+			else return "5p.png";
+			},
+		'details': 
+			'</br><img src="green.png"> Has HIV Counselling and Testing Centers'
+			+'</br><img src="5p.png"> No Data'
 	}
-	/*,
-	'xraycapability' : {
-		
-		'is_indicator' : true,
-		'description' : 'Xray Capability',
-		'categ' : function(val) { 
-			var vals = {
-				'Level 1' : '1point.png',
-				'Level 2' : '2point.png',
-				'Level 3' : '3point.png',
-				'None' : 'dot2.png',
-				'No data' : '5p.png'
-			};
-			if (vals[val]) {
-				return vals[val];
-			}
-			else return "5p.png";
-			},
-		'details': 
-			'</br><img src="1point.png"> Level 1'
-			+'</br><img src="2point.png"> Level 2'
-			+'</br><img src="3point.png"> Level 3'
-			+'</br><img src="dot2.png"> None'
-			+'</br><img src="5p.png"> No Data'
-
-	},
-	'laboratory' : {
-		
-		'is_indicator' : true,
-		'description' : 'Laboratory',
-		'categ' : function(val) { 
-			var vals = {
-				'Primary' : '1point.png',
-				'Secondary' : '2point.png',
-				'Tertiary' : '3point.png',
-				'No data' : '5p.png'
-			};
-			if (vals[val]) {
-				return vals[val];
-			}
-			else return "5p.png";
-			},
-		'details': 
-			'</br><img src="1point.png"> Primary'
-			+'</br><img src="2point.png"> Secondary'
-			+'</br><img src="3point.png"> Tertiary'
-			+'</br><img src="5p.png"> No Data'
-
-	},
-	'surgicalservices' : {
-		
-		'is_indicator' : true,
-		'description' : 'Surgical Services',
-		'categ' : function(val) { 
-			var vals = {
-				'Provides surgery services' : 'green.png',
-				'No surgery services' : 'red.png',
-				'No data' : '5p.png'
-			};
-			if (vals[val]) {
-				return vals[val];
-			}
-			else return "5p.png";
-			},
-		'details': 
-			'</br><img src="green.png"> Provides surgery services'
-			+'</br><img src="red.png"> No surgery services'
-			+'</br><img src="5p.png"> No Data'
-
-	},
-		'authorizedbedcapacity' : {
-		
-		'is_indicator' : true,
-		'description' : 'Authorized Bed Capacity', 
-		'categ' : function(val) { 
-			return val > 200 ? 'p4.png' : val > 80 ? '3point.png' : val > 30 ? '2point.png' : val < 31 ? '1point.png' :'5p.png';
-			},
-		'details': 
-			'</br><img src="1point.png"> 1-30'
-			+'</br><img src="2point.png"> 31-80'
-			+'</br><img src="3point.png"> 81-200'
-			+'</br><img src="p4.png"> more than 200'
-			+'</br><img src="5p.png"> No Data'
-	
-	}
-	*/
 };
 
 var services = {};

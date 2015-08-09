@@ -25,7 +25,7 @@ function fetchGoogleSpreadsheet(ws_key, gid, fields, where, callback, reqid) {
 muni = location.href.replace(/#.+/g,'').replace(/.+\?/g,'');
 fetchGoogleSpreadsheet(
 	'1scc3f38wGB28iN-5AYBimwEydrQDX6JWYRb9O8iX21k', 
-	987637333, '*', "B%20%3D%20'" + muni+"'", 'showData');
+	1578532529, '*', "A%20%3D%20'" + muni+"'", 'showData');
 
 function cleanJson(table) {
 	var result = [];
@@ -52,7 +52,8 @@ function showData(data) {
 	
 	globaldata = cleanJson(data.table);
 	console.log(globaldata[0]);
-	document.title = globaldata[0].name;
+	$('.municipality_name').html(globaldata[0].name);
+	$('.region_name').html(globaldata[0].region_name);
 	for (var i in globaldata[0]) {
 		$('.data_'+i).html(globaldata[0][i]);
 	}
@@ -68,18 +69,12 @@ function showData(data) {
       	console.log(totalpop);
         var datatable = google.visualization.arrayToDataTable([
           ['Num of People', 'Hours per Day'],
-          ['Non-Poor',      totalpop - poor],
-          ['Poor',     poor]
+          ['Poor',     poor],
+          ['Non-Poor',      totalpop - poor]
         ]);
 
         var options = {
-        	theme: 'maximized',
-        	pieHole: 0.3,
-        	pieSliceText: 'label',
-        	pieSliceTextStyle: {
-        		fontSize: '20'
-        	}
-          //title: 'Poverty Incidence'
+          title: 'Poverty Incidence'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('chart_poverty_incidence'));

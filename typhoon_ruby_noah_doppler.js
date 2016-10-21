@@ -413,7 +413,7 @@ var settings = {
 	'provname' : 'name',
 	'geojson_name' : 'NAME_2',
 	center: [13.921227, 121.785312],
-	zoom:7
+	zoom: 6
 };
 function showImages(image) {
 	image = image.split(',');
@@ -500,28 +500,28 @@ function getInfoText(datum) {
 } 	
 
 var services = {};
+
+function newMyMapsLayer(params, map) {
+	return new google.maps.KmlLayer({
+		'url': 'https://www.google.com/maps/d/kml?' + params,
+		'preserveViewport' : true,'suppressInfoWindows': true,
+		zIndex: 25,
+		'map' : map
+		});
+}
+
 var showOtherLayers = function() {
- var kmlLayer1 =  new google.maps.KmlLayer({
-'url': 'https://www.google.com/maps/d/kml?mid=zxLevk8015Yc.kF5kKRc29NPM&lid=zxLevk8015Yc.kvewDaSGsPR4&cid=mp&cv=tb7mTH-S3Z8.en.',
-'preserveViewport' : true,'suppressInfoWindows': true,
-zIndex: 25,
-'map' : map
-});
- var kmlLayer2 =  new google.maps.KmlLayer({
-'url': 'https://www.google.com/maps/d/kml?mid=zxLevk8015Yc.kF5kKRc29NPM&lid=zxLevk8015Yc.kq_ZYv6_SMRI&cid=mp&cv=dAM1O09h7Mg.en_GB.',
-'preserveViewport' : true
-,'suppressInfoWindows': true,
-zIndex: 20,
-'map' : map
-});
-
-new google.maps.KmlLayer({
-'url': 'https://www.google.com/maps/d/kml?mid=zTnuUZS-WSKg.kaoTaL_70kcA&lid=zTnuUZS-WSKg.kJmwdnC83xd8&cid=mp&cv=tb7mTH-S3Z8.en_GB.',
-'preserveViewport' : true,
-zIndex: 20,
-'map' : map
-});
-
+  
+  var kmlLayers = [
+  // 2015 Ruby Path
+    newMyMapsLayer('mid=zxLevk8015Yc.kF5kKRc29NPM&lid=zxLevk8015Yc.kvewDaSGsPR4&cid=mp&cv=tb7mTH-S3Z8.en.', map),
+  // 2015 Ruby 12 hour points
+    newMyMapsLayer('mid=zxLevk8015Yc.kF5kKRc29NPM&lid=zxLevk8015Yc.kq_ZYv6_SMRI&cid=mp&cv=dAM1O09h7Mg.en_GB.', map),
+  // 2016 Lawin points 
+    newMyMapsLayer('mid=1e2kVPCQp6--oLo_ctNGd5ggOLYU&lid=c4FlJQHUZwk&cid=mp&cv=gnar0phdUBQ.en_GB.', map),
+  // 2013 Yolanda path
+    newMyMapsLayer('mid=zTnuUZS-WSKg.kaoTaL_70kcA&lid=zTnuUZS-WSKg.kJmwdnC83xd8&cid=mp&cv=tb7mTH-S3Z8.en_GB.', map)
+   ];
 new google.maps.KmlLayer({
 'url': 'http://facts.rappler.com/noah/dopplers.kml?',
 'preserveViewport' : true,  zIndex: 20,
@@ -535,9 +535,9 @@ showInContentWindow = function(kmlEvent) {
        $('#rightpanel').show();
        $('#marker_data .padding').html(text.replace(/\n/g,"<br/>"));
  }
-
-google.maps.event.addListener(kmlLayer1, 'click', showInContentWindow);
-google.maps.event.addListener(kmlLayer2, 'click', showInContentWindow);
+for (var i in kmlLayers) {
+  google.maps.event.addListener(kmlLayers[i], 'click', showInContentWindow);
+}
 }
 $(document.body).ready(function() {
 

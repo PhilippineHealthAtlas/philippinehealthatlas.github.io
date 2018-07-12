@@ -518,7 +518,8 @@ var showOtherLayers = function() {
   // 2015 Ruby 12 hour points
     newMyMapsLayer('mid=zxLevk8015Yc.kF5kKRc29NPM&lid=zxLevk8015Yc.kq_ZYv6_SMRI&cid=mp&cv=dAM1O09h7Mg.en_GB.', map),
   // 2016 Lawin points 
-    newMyMapsLayer('mid=1e2kVPCQp6--oLo_ctNGd5ggOLYU&lid=c4FlJQHUZwk&cid=mp&cv=gnar0phdUBQ.en_GB.', map),
+    newMyMapsLayer('mid=1e2kVPCQp6--oLo_ctNGd5ggOLYU&lid=c4FlJQHUZwk&cid=mp&cv=gnar0phdUBQ.en_GB.&x=1', map),
+
   // 2013 Yolanda path
     newMyMapsLayer('mid=zTnuUZS-WSKg.kaoTaL_70kcA&lid=zTnuUZS-WSKg.kJmwdnC83xd8&cid=mp&cv=tb7mTH-S3Z8.en_GB.', map)
    ];

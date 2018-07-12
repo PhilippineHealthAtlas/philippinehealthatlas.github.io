@@ -81,6 +81,14 @@ function showData(data) {
 
         chart.draw(datatable, options);
       }
+
+
+	var variable = 'demoinfantdeathrate';
+	var icon = "http://files.softicons.com/download/toolbar-icons/glyphish-icons-by-joseph-wain/png/32x32/76-baby.png";
+	var num = parseInt(globaldata[0].demoinfant)
+	for (var i=0; i<num; i++) {
+		$('#count_'+variable).append('#')
+	}
 }
 
 function roundOff(num, dec) {

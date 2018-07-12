@@ -59,7 +59,32 @@ function showData(data) {
 
 	google.load("visualization", "1", {packages:["corechart"], callback:drawChart});
 
+
 	$('#municipal_logo').attr('src',globaldata[0].logo)
+
+	function createGallery(num) {
+		$('#gallery'+num).attr('src',globaldata[0]['gallery'+num]);
+		$('#gallery'+num).parent().attr('href',globaldata[0]['gallery'+num])
+	}
+
+			
+	for (var i in [1,2,3,4,5,6,7,8]) {
+		createGallery(i);
+	}
+
+	$('.gallery').poptrox({
+				useBodyOverflow: false,
+				usePopupEasyClose: false,
+				overlayColor: '#0a1919',
+				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
+				usePopupDefaultStyling: false,
+				usePopupCaption: true,
+				popupLoaderText: '',
+				windowMargin: 10,
+				usePopupNav: true
+			});
+	
+	//$('#municipal_infog1').attr('src',globaldata[0].logo)
     //google.setOnLoadCallback(drawChart);
       function drawChart() {
       	var totalpop = parseInt(globaldata[0].populationpsa2010);

@@ -23,7 +23,6 @@ function initMap() {
       var optgroups = [];
       for (var k in data) {
         var row = data[k].split("\t");
-        console.log(row);
         if (row[0].length > 0) { // ignore empty first column
           if ((row.length == 1) || (row.length > 1 && row[1].length == 0)) {
             var optgroup = $('<optgroup label="'+row[0]+'">');

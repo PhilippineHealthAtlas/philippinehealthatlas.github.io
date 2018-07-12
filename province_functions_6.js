@@ -81,12 +81,12 @@ function loadPolygonData(m) {
 		//alert(m.keyword);
 	categ_ss[m.key] = m.keyword;
 	//alert(m.key + '=' + m.keyword);
-	console.log('categories before');
-	console.log(categories);
+	//console.log('categories before');
+	//console.log(categories);
 	categories[m.keyword] = m;
 	categories[m.keyword].infoboxes = [];
-	console.log('categories after');
-	console.log(categories);
+	//console.log('categories after');
+	//console.log(categories);
 	var newInput = $('<input>')
 		.attr({'type':'radio', 'id': 'cb_' + m.keyword, 'name': 'spreadsheet','value': m.keyword, 'checked':true})
 		.click(togglePolygonCheckboxes);
@@ -320,7 +320,7 @@ function loadPolygonSpreadsheets() {
 			// If the place has a geometry, then present it on a map.
 			if (place.geometry.viewport) {
 				map.fitBounds(place.geometry.viewport);
-				console.log(place.geometry.viewport	);
+				//console.log(place.geometry.viewport	);
 			} else {
 				map.setCenter(place.geometry.location);
 				map.setZoom(10);	// Why 17? Because it looks good.
@@ -338,7 +338,7 @@ function createProvince(province_coords,name, group) {
 		strokeOpacity: 0.9,
 		strokeWeight: 1,
 		fillColor: "#777",
-		fillOpacity: 0.5
+		fillOpacity: 0.9
 	});
 	google.maps.event.addListener(province_poly, 'click', showPolygonInfoWindow);
 	$(province_poly).data('datum', {'name': name, 'group' : group});
@@ -403,15 +403,15 @@ function togglePolygonCheckboxes_attributes() {
 	var attribute = $('input:radio[name=attribute]:checked').val(),
 	items = provinces, categ = $('input:radio[name=spreadsheet]:checked').val();
 	var datas = '<table><tr><th>Name</th><th>Count</th></tr>', total = 0;
-	console.log('categ=' + categ);
-	console.log(items);
+	//console.log('categ=' + categ);
+	//console.log(items);
 	for (var j in items) {
 		var m = items[j];
 		var datum = $(m.marker).data('datum' + categ);
 		//console.log(datum);
-		console.log('datum = ');
-		console.log(m);
-		console.log($(m.marker).data());
+		//console.log('datum = ');
+		//console.log(m);
+		//console.log($(m.marker).data());
 		if (m.group != '' && m.group != categ) {	
 			m.marker.setMap(null);
 		} else if (m.group != '') {
@@ -430,7 +430,7 @@ function togglePolygonCheckboxes_attributes() {
 				m.marker.setOptions({
 					fillColor : '#777'
 				});
-				console.log('attribute ' + attribute + ' not found');
+				//console.log('attribute ' + attribute + ' not found');
 			}
 			
 			//console.log(m.name + ' = ' + datum[attribute]);
@@ -561,8 +561,8 @@ showPolygonInfoWindow = function () {
 	//alert(provname);
 		
 	if (datum != null) {
-		console.log(provinces[provname]);
-		console.log(datum);
+		//console.log(provinces[provname]);
+		//console.log(datum);
 		text = 
 	//		categories[datum.category].description +':'
 			''
@@ -587,6 +587,7 @@ showPolygonInfoWindow = function () {
 			}
 		}
 		text += '</table>';
+		
 	} else {
 		
 		text = 

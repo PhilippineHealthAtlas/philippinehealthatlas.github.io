@@ -67,12 +67,12 @@ function loadPointsData(m) {
 	categ_ss[m.key] = m.keyword;
 	//console.log('keyword = ' + m.keyword);
 	//console.log(m);
-	console.log('categories before');
-	console.log(categories);
+	//console.log('categories before');
+	//console.log(categories);
 	categories[m.keyword] = m;
 	categories[m.keyword].infoboxes = [];
-	console.log('categories after');
-	console.log(categories);
+	//console.log('categories after');
+	//console.log(categories);
 	var newInput = $('<input>')
 		.attr({'type':'checkbox', 'id': 'cb_' + m.keyword, 'name': m.keyword, 'checked':(m.hideLayer ? false : true)})
 		.click(togglePointCheckboxes);
@@ -180,7 +180,7 @@ function togglePointRadioboxes() {
 					var attr_val = items[j][attr_id];
 					//console.log(attr_val);
 					var icon_val = attr.categ(attr_val);
-					console.log(icon_val);
+					//console.log(icon_val);
 					items[j].marker.setIcon(icon_val);
                 }
             }	
@@ -206,7 +206,7 @@ hideInfotipWindow = function() {
 
 function togglePointCheckboxes () {
 	var categ = $(this).attr('name');
-	console.log('categ = ' + categ);
+	//console.log('categ = ' + categ);
 	var infoboxes = categories[categ].infoboxes;
 	$('#div_'+categ).toggleClass('hidden');
 	for (var j = 0; j < infoboxes.length; j++) {
@@ -412,52 +412,51 @@ function displayPointsNew(result) {
 	//alert(items.length);
 	//alert(items.length);
 	//console.log(items.length);
-	for (var i = 0; i < items.length; i++) {
-		items[i] = cleanJson(items[i]);
-		if (items[i].xrayservices) {
-			items[i].xrayservices = (items[i].xrayservice.length > 0 ? '1' : '0');
-		}
-		//alert(items[i].latitude);
-		//if (items[i].latitude);
-		
-		if (parseFloat(items[i].latitude) > 0) {
-			items[i].category = categ;
-			items[i].position = new google.maps.LatLng(
-				parseFloat(items[i].latitude), 
-				parseFloat(items[i].longitude));
-               
-			latlngbounds.extend(items[i].position);
-			var marker = new google.maps.Marker({
-				position: items[i].position
-				//,icon: icon
-			});
-            //console.log('minzoom = ' + settings.minZoom + ', currzoom = ' + map.getZoom());
-            
-            if (typeof settings != 'undefined' && settings.minZoom && map.getZoom() <= settings.minZoom) {
-                
-            }
-            else if (!categories[categ].hideLayer) {   
-				marker.setMap(map);
-            }
-            
-			if (categories[categ].zIndex) {
-				marker.setZIndex(categories[categ].zIndex);
+	if (typeof(items) != 'undefined') {
+		for (var i = 0; i < items.length; i++) {
+			items[i] = cleanJson(items[i]);
+			if (items[i].xrayservices) {
+				items[i].xrayservices = (items[i].xrayservice.length > 0 ? '1' : '0');
 			}
-			marker.setIcon(icon);
-			google.maps.event.addListener(marker, 'click', showPointInfoWindow);
-			//google.maps.event.addListener(marker, 'mouseover', showPointInfoWindow);
-			//google.maps.event.addListener(marker, 'mouseover', showPointInfoWindow);
-			items[i].marker = marker;
-			$(marker).data('datum', items[i]);
+			//alert(items[i].latitude);
+			//if (items[i].latitude);
+			
+			if (parseFloat(items[i].latitude) > 0) {
+				items[i].category = categ;
+				items[i].position = new google.maps.LatLng(
+					parseFloat(items[i].latitude), 
+					parseFloat(items[i].longitude));
+	               
+				latlngbounds.extend(items[i].position);
+				var marker = new google.maps.Marker({
+					position: items[i].position
+					//,icon: icon
+				});
+	            //console.log('minzoom = ' + settings.minZoom + ', currzoom = ' + map.getZoom());
+	            
+	            if (typeof settings != 'undefined' && settings.minZoom && map.getZoom() <= settings.minZoom) {
+	                
+	            }
+	            else if (!categories[categ].hideLayer) {   
+					marker.setMap(map);
+	            }
+	            
+				if (categories[categ].zIndex) {
+					marker.setZIndex(categories[categ].zIndex);
+				}
+				marker.setIcon(icon);
+				google.maps.event.addListener(marker, 'click', showPointInfoWindow);
+				//google.maps.event.addListener(marker, 'mouseover', showPointInfoWindow);
+				//google.maps.event.addListener(marker, 'mouseover', showPointInfoWindow);
+				items[i].marker = marker;
+				$(marker).data('datum', items[i]);
+			}
 		}
 	}
     if (typeof settings != 'undefined' && settings.minZoom) {
         google.maps.event.addListener(map, 'zoom_changed', refreshMarkers );
         google.maps.event.trigger(map, 'zoom_changed');
     }
-	if (items.length > 0) {
-		//map.fitBounds(latlngbounds);
-	}
 	categories[categ].items = items;
 }
 
